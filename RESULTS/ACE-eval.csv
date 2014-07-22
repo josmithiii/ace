@@ -1,0 +1,32 @@
+% ACE on josmbp.local
+
+% fs = 7350
+% fmin = 65.4
+% binsPerSemitone = 1
+% doClass = 1, constantQ = 1
+
+% Each column below has two entries, one for 24 chords and the other for 48 chords
+song	0 - sqrt(mag)	1 - mag	2 - mag^2	3 - dB	4 - dB-A	5 - dB-G	
+fps1	88.318	82.243	89.72	83.645	87.383	80.374	92.523	85.981	90.187	83.645	85.514	78.972	
+% Real-time ratio = 37.23
+
+Average Accuracy for 24 chords:	88.318	89.72	87.383	92.523	90.187	85.514	
+Average Accuracy for 48 chords:	82.243	83.645	80.374	85.981	83.645	78.972	
+
+CSR Chord Symbol Recall:
+
+24 chords:
+Sqrt(Magnitude)          : 88.32
+Magnitude                : 89.72
+Magnitude^2              : 87.38
+Unweighted dB            : 92.52
+A-weighted dB            : 90.19
+G-weighted dB            : 85.51
+
+48 chords:
+Sqrt(Magnitude)          : 82.24
+Magnitude                : 83.64
+Magnitude^2              : 80.37
+Unweighted dB            : 85.98
+A-weighted dB            : 83.64
+G-weighted dB            : 78.97
